@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <properties resource="db.properties"/>
+    <settings>
+        <!-- 打印查询语句 -->
+        <setting name="logImpl" value="LOG4J" />
+    </settings>
+    <typeAliases>
+        <typeAlias alias="Customer" type="com.user.Customer"/>
+        <typeAlias type="po.Customer" alias="t_customer"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+
+    </environments>
+
+    <mappers>
+<!--        <mapper resource="mapper/usermapping.xml"/>-->
+        <mapper resource="mapper/CustomerMapper.xml"/>
+<!--        <mapper url="file:///D:/mybatis-demo/src/main/resources/mapper/CustomerMapper.xml"/>-->
+<!--        <mapper class="Customer"/>-->
+<!--        <mapper resource="mapper/t_cardMapper.xml"/>-->
+<!--        <mapper resource="mapper/t_customerMapper.xml"/>-->
+<!--        <mapper resource="mapper/t_ordersMapper.xml"/>-->
+    </mappers>
+</configuration>

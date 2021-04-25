@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="Customer">
+    <resultMap id="resultMap" type="Customer">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+    </resultMap>
+
+
+    <sql id="values">
+        #{username},jobs=#{jobs},phone=#{phone}
+    </sql>
+    <select id="getCustomers" resultType="Map" >
+        SELECT * FROM t_customer
+    </select>
+    <select id="getCustomer_ID_and_Name" resultMap="resultMap" >
+        SELECT * FROM t_customer
+    </select>
+    <select id="findCustomerId" parameterType="Integer" resultType="Customer">
+        SELECT * FROM t_customer WHERE id = #{id}
+    </select>
+    <insert id="addCustomer" parameterType="Customer">
+        insert into t_customer(username,jobs,phone) values (#{username},#{jobs},#{phone})
+    </insert>
+    <delete id="deleteCustomer" parameterType="Integer">
+        delete from t_customer where id = #{id}
+    </delete>
+<!--    <select id="getCustomerid" parameterType="" resultType="Integer">-->
+<!--        select id from t_customer where -->
+<!--    </select>-->
+    <update id="updateCustomer" parameterType="Customer">
+
+        update t_customer set username = <include refid="values"/>
+        where id = #{id}
+    </update>
+    <!--根据客户编号获取客户信息 -->
+    <select resultType="Customer" parameterType="Integer" id="findCustomerById">
+        select * from t_customer where id = #{id}
+    </select>
+    <!--根据客户名模糊查询客户信息列表-->
+    <select resultType="Customer" parameterType="String" id="findCustomerByName">
+        <bind name="new_username" value="'%'+username+'%'"/>
+    <!-- select * from t_customer where username like '%${value}%' -->
+    select * from t_customer where username like concat('#{new_username})
+    </select>
+
+    <select id="getCustomersByJobs" parameterType="Customer" resultType="Map" >
+        <if test="jobs != null and jobs != ''">
+            SELECT * FROM t_customer where jobs = #{jobs}
+        </if>
+    </select>
+<!--    当客户名称不为空，则根据客户名称进行客户筛选；当客户名称为空，
+而客户职业不为空，则只根据客户职业进行客户筛选；当客户名称、客户职业都为空，
+则要求查询出所以电话不为空的客户信息-->
+    <select id="findCustomerByNameOrJobTest" parameterType="Customer" resultType="Map">
+        SELECT * FROM t_customer
+        <where>
+            <choose>
+                <when test="username !=null and username = ''">
+                    username like concat('%',#{username},'%')
+                </when>
+                <when  test="jobs != null and jobs != '' ">
+                    AND jobs like concat('%',#{jobs},'%')
+                </when>
+                <otherwise>
+                    and phone != null
+                </otherwise>
+            </choose>
+        </where>
+
+
+    </select>
+<!--        （6）使用set>和if>元素对username和jobs进行更新判断，-->
+<!--                并动态组装SQL。只传入想要更新的字段，-->
+<!--                编写测试类完成将“jasmine”的电话改为“18966547895”-->
+    <update id="updateCustomerById" parameterType="Customer">
+        update t_customer
+        <set>
+            <if test="username =! null and username = ''">
+                username = #{username}
+            </if>
+            <if test="jobs =! null and jobs = ''">
+                jobs = #{jobs}
+            </if>
+            <if test="phone =! null and phone = ''">
+                username = #{phone}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="getCustomersByListParam" resultType="Map">
+        select * from t_customer
+        <foreach collection="list" item="item" open="where id in(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </select>
+
+</mapper>
+

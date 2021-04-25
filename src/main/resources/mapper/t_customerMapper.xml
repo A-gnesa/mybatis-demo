@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="po.Customer">
+<!--    根据客户编号获取客户信息    -->
+    <select id="findCustomerById" parameterType="Integer" resultMap="cardWithCustomer">
+        select * from t_customer where id = #{id}
+    </select>
+    <resultMap id="cardWithCustomer" type="po.Customer">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="jobs" column="jobs"/>
+        <result property="phone" column="phone"/>
+        <association property="card" column="card_id"
+                     javaType="po.Card" select="po.Card.findCardById"
+        />
+    </resultMap>
+
+    <select id="findCustomerAndOrders" parameterType="Integer" resultMap="OrdersWithCustomer">
+        select * from t_customer where id = #{id}
+    </select>
+    <resultMap id="OrdersWithCusomer" type="customer"    >
+        <id property="id"></id>
+        <result property="username" column="username"/>
+<!--        ofType 对应类型   column子查询需要传入的值 -->
+        <collection property="orderList" ofType="Orders" select="po.Orders.findOrdersById"
+                    column="id"></collection>
+    </resultMap>
+</mapper>
+
+
