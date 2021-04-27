@@ -24,11 +24,12 @@ public class CustomerSqlToolsTest {
 ////        （6）编写测试类完成将“jasmine”的电话改为“18966547895”
 //        customer.setId(24);
 //        customer.setPhone("18966547895");
-        List<Integer> list = new ArrayList<>();
-        for (int i = 1 ; i<=4 ; i++){
-            list.add(i);
-        }
-        CustomerSqlTools.getCustomersByListParam(list);
+//        List<Integer> list = new ArrayList<>();
+//        for (int i = 1 ; i<=4 ; i++){
+//            list.add(i);
+//        }
+//        CustomerSqlTools.getCustomersByListParam(list);
+        poCustomerSqlTools.findCustomerAndOrders(1);
     }
 
 }

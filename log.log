@@ -421,3 +421,183 @@ org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-21 14:40:29  <==      Tota
 org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-21 14:40:29  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6379eb] 
 org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-21 14:40:29  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6379eb] 
 org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-21 14:40:29  Returned connection 6519275 to pool. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:48:01  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:48:01  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:01  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:01  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:01  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:01  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:48:47  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:48:47  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:48:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:50:04  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:50:04  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:04  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:04  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:04  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:04  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:50:09  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:50:09  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:10  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:10  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:10  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:50:10  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:52:46  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:52:46  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:52:46  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:52:46  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:52:46  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:52:46  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:55:15  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:55:15  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:15  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:15  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:15  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:15  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:55:38  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:55:38  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:38  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:38  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:38  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:55:38  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:56:52  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:56:52  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:56:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:56:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:56:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:56:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:57:30  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 14:57:30  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:57:30  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:57:30  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:57:30  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 14:57:30  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:02:59  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:02:59  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:02:59  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:02:59  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:02:59  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:02:59  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:02:59  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:02:59  Created connection 1254344205. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:02:59  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4ac3c60d] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:02:59  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:02:59  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:02:59  ====>  Preparing: select * from t_card where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:02:59  ====> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:02:59  <====      Total: 1 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:04:14  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:04:14  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:04:14  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:04:14  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:04:14  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:04:14  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:06:11  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:06:11  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:11  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:11  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:11  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:11  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:06:11  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:11  Created connection 1354003114. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:06:11  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:11  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:11  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:06:36  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:06:36  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:06:36  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:36  Created connection 1354003114. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:06:36  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:36  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:36  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:37  ====>  Preparing: select * from t_card where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:37  ====> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:37  <====      Total: 1 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:06:50  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:06:50  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:50  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:50  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:50  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:50  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:06:50  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:06:50  Created connection 1354003114. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:06:50  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:50  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:50  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:51  ====>  Preparing: select * from t_card where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:51  ====> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:51  <====      Total: 1 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:06:51  <==      Total: 2 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:09:52  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:09:52  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:09:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:09:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:09:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:09:52  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:09:53  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:09:53  Created connection 1354003114. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:09:53  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:09:53  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:09:53  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:09:53  ====>  Preparing: select * from t_card where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:09:53  ====> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:09:53  <====      Total: 1 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:09:53  <==      Total: 2 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:10:20  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:10:20  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:20  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:20  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:20  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:20  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:10:20  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:21  Created connection 1354003114. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:10:21  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:21  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:21  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:21  ====>  Preparing: select * from t_card where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:21  ====> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:21  <====      Total: 1 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:21  <==      Total: 2 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:10:36  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 15:10:36  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:36  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:10:36  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:36  Created connection 1354003114. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:10:36  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:36  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:36  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:36  ====>  Preparing: select * from t_card where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:36  ====> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:36  <====      Total: 1 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 15:10:36  <==      Total: 2 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:10:36  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 15:10:36  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@50b472aa] 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 15:10:36  Returned connection 1354003114 to pool. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 17:04:47  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 
+org.apache.ibatis.logging.LogFactory 2021-04-27 17:04:47  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 17:04:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 17:04:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 17:04:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 17:04:47  PooledDataSource forcefully closed/removed all connections. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 17:04:47  Opening JDBC Connection 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 17:04:47  Created connection 835227336. 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 17:04:47  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@31c88ec8] 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 17:04:47  ==>  Preparing: select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id from t_customer,t_orders where t_customer.id = t_orders.cus_id and t_customer.id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 17:04:47  ==> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 17:04:48  ====>  Preparing: select * from t_card where id = ?  
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 17:04:48  ====> Parameters: 1(Integer) 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 17:04:48  <====      Total: 1 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2021-04-27 17:04:48  <==      Total: 2 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 17:04:48  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@31c88ec8] 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2021-04-27 17:04:48  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@31c88ec8] 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2021-04-27 17:04:48  Returned connection 835227336 to pool. 

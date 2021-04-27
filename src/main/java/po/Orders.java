@@ -4,6 +4,27 @@ public class Orders {
     private int id;
     private String number;
     private double total;
+    private int cus_id;
+
+    public Orders() {
+    }
+
+    public Orders(int id, String number, double total, int cus_id, Customer customer) {
+        this.id = id;
+        this.number = number;
+        this.total = total;
+        this.cus_id = cus_id;
+        this.customer = customer;
+    }
+
+    public int getCus_id() {
+        return cus_id;
+    }
+
+    public void setCus_id(int cus_id) {
+        this.cus_id = cus_id;
+    }
+
     private Customer customer;
 
     @Override

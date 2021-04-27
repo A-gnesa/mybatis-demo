@@ -11,7 +11,6 @@
         <setting name="logImpl" value="LOG4J" />
     </settings>
     <typeAliases>
-        <typeAlias alias="Customer" type="com.user.Customer"/>
         <typeAlias type="po.Customer" alias="t_customer"/>
     </typeAliases>
     <environments default="development">
@@ -29,11 +28,11 @@
 
     <mappers>
 <!--        <mapper resource="mapper/usermapping.xml"/>-->
-        <mapper resource="mapper/CustomerMapper.xml"/>
+<!--        <mapper resource="mapper/CustomerMapper.xml"/>-->
 <!--        <mapper url="file:///D:/mybatis-demo/src/main/resources/mapper/CustomerMapper.xml"/>-->
 <!--        <mapper class="Customer"/>-->
-<!--        <mapper resource="mapper/t_cardMapper.xml"/>-->
-<!--        <mapper resource="mapper/t_customerMapper.xml"/>-->
-<!--        <mapper resource="mapper/t_ordersMapper.xml"/>-->
+        <mapper resource="mapper/t_cardMapper.xml"/>
+        <mapper resource="mapper/t_customerMapper.xml"/>
+        <mapper resource="mapper/t_ordersMapper.xml"/>
     </mappers>
 </configuration>

@@ -34,6 +34,7 @@
 <!--        select id from t_customer where -->
 <!--    </select>-->
     <update id="updateCustomer" parameterType="Customer">
+
         update t_customer set username = <include refid="values"/>
         where id = #{id}
     </update>
@@ -43,8 +44,9 @@
     </select>
     <!--根据客户名模糊查询客户信息列表-->
     <select resultType="Customer" parameterType="String" id="findCustomerByName">
+        <bind name="new_username" value="'%'+username+'%'"/>
     <!-- select * from t_customer where username like '%${value}%' -->
-    select * from t_customer where username like concat('%',#{value},'%')
+    select * from t_customer where username like concat('#{new_username})
     </select>
 
     <select id="getCustomersByJobs" parameterType="Customer" resultType="Map" >

@@ -12,6 +12,9 @@ public class Customer {
     private Card card;
     private List<Orders> orderList;
 
+    public Customer() {
+    }
+
     public Customer(int id, String username, String jobs, String phone, int cardId, Card card, List<Orders> orderList) {
         this.id = id;
         this.username = username;

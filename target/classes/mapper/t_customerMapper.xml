@@ -21,14 +21,23 @@
     </resultMap>
 
     <select id="findCustomerAndOrders" parameterType="Integer" resultMap="OrdersWithCustomer">
-        select * from t_customer where id = #{id}
+        select t_customer.*,t_orders.id as orders_id,t_orders.cus_id as orders_cus_id
+         from t_customer,t_orders
+        where t_customer.id = t_orders.cus_id and t_customer.id = #{id}
     </select>
-    <resultMap id="OrdersWithCusomer" type="customer"    >
-        <id property="id"></id>
+    <resultMap id="OrdersWithCustomer" type="po.Customer"    >
+        <id property="id" column="id"></id>
         <result property="username" column="username"/>
+        <result property="jobs" column="jobs"/>
+        <result property="phone" column="phone"/>
+        <association property="card" column="card_id"
+                     javaType="po.Card" select="po.Card.findCardById"
+        />
+        <collection property="orderList" ofType="po.Orders">
+            <id property="id" column="orders_id"/>
+            <result property="cus_id" column="orders_cus_id"/>
+        </collection>
 <!--        ofType 对应类型   column子查询需要传入的值 -->
-        <collection property="orderList" ofType="Orders" select="po.Orders.findOrdersById"
-                    column="id"></collection>
     </resultMap>
 </mapper>
 

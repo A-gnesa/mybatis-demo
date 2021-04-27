@@ -7,7 +7,7 @@
 
 <mapper namespace="po.Orders">
     <!--    根据客户编号获取客户信息    -->
-    <select id="findOrdersById" parameterType="Integer" resultType="Orders">
+    <select id="findOrdersById" parameterType="Integer" resultType="po.Orders">
         select * from t_Orders where cus_id = #{id}
     </select>
 </mapper>
