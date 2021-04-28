@@ -10,6 +10,16 @@
     <select id="findOrdersById" parameterType="Integer" resultType="po.Orders">
         select * from t_Orders where cus_id = #{id}
     </select>
+    <select id="findOrdersWithProduct" parameterType="Integer" resultMap="findOrdersWithProductResult">
+        select * from t_orders where id = #{id}
+    </select>
+    <resultMap id="findOrdersWithProductResult" type="po.Orders" >
+        <id property="id" column="id"></id>
+        <result property="number" column="number"></result>
+        <collection property="productList" column="id" ofType="Product"
+                    select="po.Product.findProductById">
+        </collection>
+    </resultMap>
 </mapper>
 
 

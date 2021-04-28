@@ -34,5 +34,6 @@
         <mapper resource="mapper/t_cardMapper.xml"/>
         <mapper resource="mapper/t_customerMapper.xml"/>
         <mapper resource="mapper/t_ordersMapper.xml"/>
+        <mapper resource="mapper/t_ProductMapper.xml"/>
     </mappers>
 </configuration>

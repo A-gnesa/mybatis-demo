@@ -1,12 +1,26 @@
 package po;
 
+import java.util.List;
+
 public class Orders {
     private int id;
     private String number;
     private double total;
     private int cus_id;
-
+    private List<Product> productList;
     public Orders() {
+    }
+
+    @Override
+    public String toString() {
+        return "Orders{" +
+                "id=" + id +
+                ", number='" + number + '\'' +
+                ", total=" + total +
+                ", cus_id=" + cus_id +
+                ", productList=" + productList +
+                ", customer=" + customer +
+                '}';
     }
 
     public Orders(int id, String number, double total, int cus_id, Customer customer) {
@@ -26,16 +40,6 @@ public class Orders {
     }
 
     private Customer customer;
-
-    @Override
-    public String toString() {
-        return "Orders{" +
-                "id=" + id +
-                ", number='" + number + '\'' +
-                ", total=" + total +
-                ", customer=" + customer +
-                '}';
-    }
 
     public Orders(int id, String number, double total, Customer customer) {
         this.id = id;

@@ -1,12 +1,5 @@
 package toolClass;
 
-import com.user.Customer;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import static org.junit.Assert.*;
-
 public class CustomerSqlToolsTest {
     public static void main(String[] args) {
 ////        使用select进行查询
@@ -29,7 +22,8 @@ public class CustomerSqlToolsTest {
 //            list.add(i);
 //        }
 //        CustomerSqlTools.getCustomersByListParam(list);
-        poCustomerSqlTools.findCustomerAndOrders(1);
+//        poSqlTools.findCustomerAndOrders(1);
+        poSqlTools.findOrdersWithProduct(1);
     }
 
 }
